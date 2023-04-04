@@ -1,0 +1,9 @@
+{
+    "tags": [],
+    "name": "Longitudinal Monitor",
+    "description": "Calculates the deviation in performance metrics over time",
+    "modelCategory": "MODEL_MONITORING_MODEL",
+    "defaultAssociationRole": "PERFORMANCE_MODEL",
+    "frequentlyUsed": false,
+    "custom" : {}
+}
