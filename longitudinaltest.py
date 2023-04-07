@@ -34,8 +34,8 @@ def metrics(comparator):
     
     print("Last Test Result: " + str(LAST_TEST_RESULT))
 
-    results["deviation_auc"] = percentDeviation(LAST_TEST_RESULT.get("auc", None), results.get("auc", None))
-    results["deviation_precision"] = percentDeviation(LAST_TEST_RESULT.get("precision", None), results.get("precision", None))
+    results["deviation_auc_percent"] = percentDeviation(LAST_TEST_RESULT.get("auc", None), results.get("auc", None))
+    results["deviation_precision_percent"] = percentDeviation(LAST_TEST_RESULT.get("precision", None), results.get("precision", None))
     yield results  
     
 def percentDeviation(a, b) :
